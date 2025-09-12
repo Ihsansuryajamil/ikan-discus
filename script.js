@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     // 2. Cek bahasa yang tersimpan di browser, default ke 'id' (Indonesia)
-    let currentLang = localStorage.getItem('lang') || 'id';
+    let currentLang = localStorage.getItem('lang') || 'en';
 
     // 3. Fungsi untuk mengganti bahasa
     function setLanguage(lang) {
