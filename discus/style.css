@@ -1,0 +1,632 @@
+/* Menggunakan font yang kita impor dari Google Fonts */
+body {
+    background-color: #ccc;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* GANTI FONT UTAMA dari Anton ke Kanit */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700; /* Ketebalan font */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* === BAGIAN BARU: HEADER ANIMASI === */
+.animated-header {
+    position: relative;
+    overflow: hidden; /* Penting untuk menjaga animasi tetap di dalam header */
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.animated-header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    /* Gradien warna-warni yang akan dianimasikan */
+    background-color: #005BAA;
+    background-size: 200% 200%;
+    z-index: -1; /* Letakkan di belakang konten */
+}
+
+/* Keyframes untuk menganimasikan posisi background */
+@keyframes gradient-animation {
+    0% { transform: translate(0%, 0%); }
+    25% { transform: translate(10%, -10%); }
+    50% { transform: translate(0%, -20%); }
+    75% { transform: translate(-10%, -10%); }
+    100% { transform: translate(0%, 0%); }
+}
+
+/* === BAGIAN BARU: LOGO BRAND === */
+.brand-logo h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.brand-logo .logo-alt {
+    color: #fff; /* Warna kuning untuk huruf 'O' */
+}
+
+.logo-subtitle {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.8rem;
+    color: #ccc;
+}
+/* === GAYA UNTUK NAVBAR BARU === */
+.custom-navbar {
+    background-color: rgba(237, 237, 237, 0.8); /* Latar belakang hitam semi-transparan */
+    backdrop-filter: blur(10px); /* Efek blur (keren di browser modern) */
+}
+
+.navbar-brand {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    color: #005BAA !important;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Mengubah warna dropdown agar sesuai tema */
+.dropdown-menu {
+    background-color: #333;
+}
+
+.dropdown-item {
+    color: #ccc;
+}
+
+.dropdown-item:hover {
+    background-color: #005BAA;
+    color: #fff;
+}
+.hero-section {
+    padding-top: 2rem;
+}
+
+.hero-image {
+    max-width: 450px; /* Atur ukuran maksimal gambar ikan */
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    color: #ccc;
+}
+/* === AKHIR BAGIAN BARU === */
+
+
+.section-title {
+    font-size: 2.5rem;
+}
+
+.highlight-box {
+    background-color: #005BAA;
+    color: #ccc;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.text-highlight {
+    background-color: #005BAA;
+    color: #ccc;
+    padding: 2px 8px;
+}
+
+.img-fluid.rounded-circle {
+    border: 5px solid #005BAA;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.quote-section {
+    position: relative;
+    padding: 40px 20px;
+    border: 2px solid #555;
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    position: relative;
+    z-index: 2;
+}
+
+.quote-section::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 120px;
+    height: 40px;
+    background-color: #005BAA;
+    transform: skew(-25deg);
+    z-index: 1;
+}
+
+.quote-section::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    width: 120px;
+    height: 40px;
+    background-color: #005BAA;
+    transform: skew(-25deg);
+    z-index: 1;
+}
+
+.contact-section {
+    position: relative;
+    background-color: #1a1a1a; /* Warna fallback jika gambar tidak dimuat */
+    overflow: hidden;
+}
+
+/* === GAYA UNTUK FOOTER BARU === */
+.site-footer {
+    background-color: #005BAA; /* Warna latar belakang gelap */
+    color: #ccc;
+    padding: 4rem 0 2rem 0;
+    font-size: 0.95rem;
+}
+
+.footer-logo {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-logo span {
+    color: #005BAA; /* Warna biru khas Anda */
+}
+
+.footer-tagline {
+    color: #888;
+    margin-bottom: 1.5rem;
+}
+
+.footer-social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.footer-social-icons a:hover {
+    background-color: #ccc;
+    transform: translateY(-3px);
+}
+
+.footer-title {
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #333;
+}
+
+.footer-links li, .footer-contact li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.footer-links a:hover {
+    color: #fff;
+    padding-left: 5px;
+}
+
+.footer-contact {
+    color: #ccc;
+}
+
+.footer-contact i {
+    margin-right: 10px;
+    color: #005BAA;
+    font-size: 1.2rem;
+}
+
+.footer-contact a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    color: #fff;
+}
+
+.copyright-text {
+    padding-top: 2rem;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.copyright-text hr {
+    border-color: #333;
+}
+/* === GAYA UNTUK HALAMAN ABOUT US === */
+.about-us-content {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #333; /* Warna teks gelap agar mudah dibaca di latar terang */
+}
+
+.page-title {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    color: #005BAA; /* Menggunakan warna biru dari tema Anda */
+}
+
+.advantage-card {
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.advantage-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.advantage-icon {
+    font-size: 3.5rem; /* Ukuran ikon */
+    color: #005BAA;
+}
+/* === GAYA UNTUK HALAMAN DETAIL PRODUK === */
+.product-detail-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #333;
+}
+
+/* Efek animasi fade-in untuk konten */
+.product-detail-container .row {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.carousel-inner {
+    border-radius: 15px; /* Sudut tumpul untuk slider */
+}
+
+.product-detail-title {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: #005BAA;
+}
+
+.product-detail-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+.booking-card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.booking-title {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid #005BAA;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.contact-list li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact-list i {
+    color: #005BAA;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    width: 25px; /* Agar ikon rapi sejajar */
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.contact-list a:hover {
+    color: #005BAA;
+}
+/* === GAYA UNTUK HALAMAN SPONSOR (BLOG) === */
+.blog-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.blog-card-img-wrapper {
+    position: relative; /* Kunci untuk menempatkan elemen overlay */
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+}
+
+/* Efek zoom pada gambar saat di-hover */
+.blog-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.blog-card .card-img-top {
+    transition: transform 0.4s ease;
+}
+
+.watermark-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    opacity: 0.2;
+    user-select: none; /* Agar teks tidak bisa di-select */
+    font-family: 'Kanit', sans-serif;
+}
+
+.category-tag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    backdrop-filter: blur(5px);
+}
+
+.category-tag i {
+    margin-right: 5px;
+}
+
+.blog-card .card-body {
+    padding: 1.5rem;
+}
+
+.blog-card .card-meta {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+.blog-card .card-title {
+    font-family: 'Kanit', sans-serif;
+    color: #333;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.btn-primary-outline {
+    color: #005BAA;
+    border: 2px solid #005BAA;
+    background-color: transparent;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.btn-primary-outline:hover {
+    background-color: #005BAA;
+    color: #fff;
+}
+/* === GAYA UNTUK HALAMAN DETAIL BLOG/ARTIKEL === */
+.blog-detail-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #333;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.article-title {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #005BAA;
+    line-height: 1.2;
+}
+
+.article-meta {
+    margin-top: 1rem;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.article-meta a {
+    color: #005BAA;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.article-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.article-content h2 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.article-content blockquote {
+    border-left: 4px solid #005BAA;
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+    font-style: italic;
+    color: #555;
+    font-size: 1.2rem;
+}
+/* === GAYA UNTUK HALAMAN KONTAK === */
+.contact-page-container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #333;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.contact-subtitle {
+    color: #005BAA;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.contact-title {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.contact-intro {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.contact-section-title {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info p, .contact-social-list li {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.contact-info i {
+    color: #005BAA;
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+.contact-social-list a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s;
+}
+
+.contact-social-list a:hover {
+    color: #005BAA;
+}
+
+.contact-wa-button {
+    background-color: #25D366;
+    border-color: #25D366;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.contact-wa-button:hover {
+    background-color: #1DA851;
+    border-color: #1DA851;
+    transform: scale(1.02); /* Sedikit membesar saat di-hover */
+}
+
+.map-wrapper {
+    border-radius: 15px;
+    overflow: hidden; /* Agar iframe mengikuti border-radius */
+}
+
+.map-wrapper iframe {
+    display: block; /* Menghilangkan spasi bawah yang aneh pada iframe */
+}
+/* === GAYA UNTUK FLOATING ACTION BUTTONS (FAB) === */
+.floating-buttons {
+    position: fixed; /* Tetap di layar saat scroll */
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000; /* Pastikan selalu di atas elemen lain */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Jarak antar tombol */
+}
+
+.fab-item {
+    width: 55px;
+    height: 55px;
+    background-color: #005BAA; /* Warna biru khas Anda */
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.fab-item:hover {
+    background-color: #003f75; /* Warna biru lebih gelap saat di-hover */
+    color: #fff;
+    transform: scale(1.1) translateY(-3px); /* Efek membesar dan terangkat */
+}
+
+/* Tombol Scroll to Top akan kita sembunyikan dulu */
+#scroll-to-top-btn {
+    display: none;
+}
