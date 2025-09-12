@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ikan Discus Detail - Richie Farm</title>
+    <title>Beranda - Richie Farm</title>
     <meta name="description" content="Richie Farm adalah pusat penjualan Ikan Discus dan Ikan Arwana kualitas ekspor. Temukan berbagai jenis ikan hias dan perlengkapan aquascape terbaik di Indonesia.">
     <meta name="keywords" content="Ikan Discus, Ikan Arwana, Ikan Hias, Aquascape, Export Discus Fish, Export Arowana Fish, Richie Farm">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700;900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-<body class="bg-light">
-
+<body>
     <nav class="navbar navbar-expand-lg sticky-top custom-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">RICHIE FARM</a>
@@ -25,13 +26,13 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html" data-lang="nav-home">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html" data-lang="nav-home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="aboutus.html" data-lang="nav-about">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-lang="nav-product">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-lang="nav-product">
                             Product
                         </a>
                         <ul class="dropdown-menu">
@@ -53,59 +54,69 @@
             </div>
         </div>
     </nav>
-
-    <div class="container product-detail-container">
-        <div class="row">
-            <div class="col-lg-8">
-                <div id="productCarousel" class="carousel slide shadow-lg" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="../assets/img/Obat dan Pakan Ikan/Pattern Booter Pro Obat + Vitamin (3).jpeg" class="d-block w-100" alt="Ikan Discus 1">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../assets/img/Obat dan Pakan Ikan/Pattern Booter Pro Obat + Vitamin (2).jpeg" class="d-block w-100" alt="Ikan Discus 2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../assets/img/Obat dan Pakan Ikan/Pattern Booter Pro Obat + Vitamin (1).jpeg" class="d-block w-100" alt="Ikan Discus 3">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+    <header class="animated-header">
+        <div class="container">
+            <div class="brand-logo text-center">
+                <h1>Richie <span class="logo-alt">Farm</span></h1>
+                <p class="logo-subtitle">NATURE AQUATIC</p>
             </div>
 
-            <div class="col-lg-4">
-                <div class="product-info">
-                    <h1 class="product-detail-title">Obat & Vitamin Ikan</h1>
-                    <p class="product-detail-description">
-                        Kesehatan ikan Anda adalah prioritas kami. Kami menyediakan rangkaian lengkap obat-obatan dan vitamin yang efektif untuk pencegahan dan pengobatan berbagai penyakit umum pada ikan hias. Produk kami telah teruji aman dan ampuh untuk mengatasi white spot, fin rot, jamur, dan infeksi bakteri. Jaga investasi berharga Anda dengan solusi kesehatan terpercaya dari Richie Farm.
-                        </p>
-
-                    <div class="booking-card shadow">
-                        <h3 class="booking-title">Book Now</h3>
-                        <ul class="list-unstyled contact-list">
-                            <li><i class="bi bi-telephone-fill"></i> <a href="https://wa.me/6285281073036" target="_blank">+62 852-8107-3036</a></li>
-                            <li><i class="bi bi-tiktok"></i> <a href="#" target="_blank">@richiefarm.official</a></li>
-                            <li><i class="bi bi-instagram"></i> <a href="#" target="_blank">@richiefarm.official</a></li>
-                            <li><i class="bi bi-facebook"></i> <a href="#" target="_blank">RichieFarm01</a></li>
-                        </ul>
+            <section class="hero-section">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center">
+                        <img src="assets/img/Ikan discus/discus-fish-isolated-on-transparent-background-generate-ai-free-png.webp" alt="Yellow Discus" class="img-fluid hero-image">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="hero-title">CARI DISCUS? <br> DI RICHIE FARM AJA..</h2>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
+    </header>
+
+
+    <section class="container text-center my-5 py-5">
+        <h2 class="section-title highlight-box" data-lang="passion-title">IT'S BORN FROM PASSION</h2>
+        <p class="lead my-4 px-md-5" data-lang="passion-desc">
+            Discus fish originated from Amazon River Brazil, has stolen hobbyist heart all around the world. They swim very gracefully and have various bright color, make them one of the best choice for hobbyist who want to relax at their home, after whole day of stressful work.
+        </p>
+        <img src="assets/img/Ikan discus/04_(2)[1].jpeg" class="img-fluid rounded-circle" alt="Red Discus Passion">
+    </section>
+
+    <section class="container my-5">
+        <div class="quote-section">
+            <p class="quote-text" data-lang="quote-text">
+                WE, Richie Farm, truly believe that Fish can feel our love. If we give them our best, surely they will pay us back and say "Thank You" by showing their best form and color to us. <br>
+                Happy Fish, Happy Life ❤️
+            </p>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <section class="text-center">
+            <h2 class="section-title highlight-box" data-lang="specialize-title">HAVE IT YOUR WAY</h2>
+            <h3 data-lang="specialize-subtitle">OUR SPECIALIZE DISCUS FISH</h3>
+        </section>
+
+        <section class="row text-center my-5">
+            <div class="col-md-4 mb-4">
+                <img src="assets/img/Ikan discus/04_(2)[1].jpeg" class="img-fluid rounded-circle mb-3" alt="San Merah Discus">
+                <h4><span class="text-highlight" data-lang="fish-sanmerah-title">SAN MERAH</span></h4>
+                <p data-lang="fish-sanmerah-desc">Our 2024 Signature from snow line, head spotted with full body pattern is very rare. This Strain can be yours...</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="assets/img/Ikan discus/04_(2)[1].jpeg" class="img-fluid rounded-circle mb-3" alt="Golden Red Diamond">
+                <h4><span class="text-highlight" data-lang="fish-grd-title">GOLDEN RED DIAMOND</span></h4>
+                <p data-lang="fish-grd-desc">Famous for its impressive pattern and color. For sure this line up its own class in hobbyist heart. Thrive well in Planted Aquarium.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="assets/img/Ikan discus/04_(2)[1].jpeg" class="img-fluid rounded-circle mb-3" alt="Red Cover Discus">
+                <h4><span class="text-highlight" data-lang="fish-redcover-title">RED COVER</span></h4>
+                <p data-lang="fish-redcover-desc">There will be no better time than right now to visit Richie Farm and pick your discus to brighten up your aquarium at home.</p>
+            </div>
+        </section>
     </div>
-    
+
     <footer class="site-footer">
         <div class="container">
             <div class="row">
