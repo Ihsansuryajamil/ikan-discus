@@ -12,7 +12,18 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
+/* === GAYA BARU UNTUK MENYATUKAN LOGO DAN TEKS === */
+.logo-container {
+    display: flex; /* Mengaktifkan mode flexbox agar item sejajar */
+    align-items: center; /* Membuat gambar dan teks sejajar di tengah secara vertikal */
+    justify-content: center; /* Menjaga agar logo dan teks tetap di tengah halaman */
+    gap: 15px; /* Memberi jarak 15px antara gambar dan teks */
+}
 
+/* Menghapus margin bawah default dari h1 agar lebih rapi di dalam flexbox */
+.logo-container h1 {
+    margin-bottom: 0;
+}
 /* === BAGIAN BARU: HEADER ANIMASI === */
 .animated-header {
     position: relative;
@@ -193,7 +204,17 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
+/* === GAYA BARU UNTUK LOGO FOOTER === */
+.footer-logo-container {
+    display: flex;          /* Membuat item di dalamnya sejajar */
+    align-items: center;    /* Menyelaraskan gambar dan teks secara vertikal */
+    gap: 10px;              /* Memberi jarak antara gambar dan teks */
+}
 
+/* Menghapus margin bawah default dari h3 di dalam container ini */
+.footer-logo-container .footer-logo {
+    margin-bottom: 0;
+}
 .footer-logo span {
     color: #005BAA; /* Warna biru khas Anda */
 }
@@ -476,7 +497,7 @@ h1, h2, h3, h4, h5, h6 {
 .article-title {
     font-family: 'Kanit', sans-serif;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #005BAA;
     line-height: 1.2;
 }

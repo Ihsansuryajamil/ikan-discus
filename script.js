@@ -211,14 +211,17 @@ document.addEventListener('DOMContentLoaded', function() {
         'sponsor-card1-tag': { id: 'Event', en: 'Event' },
         'sponsor-card1-title': { id: 'Richie Farm Sukses Sponsori Kontes Discus Nasional 2025', en: 'Richie Farm Successfully Sponsors the 2025 National Discus Contest' },
         'sponsor-card1-desc': { id: 'Dukungan penuh kami untuk para breeder lokal dalam menampilkan discus kualitas terbaik di panggung nasional.', en: 'Our full support for local breeders in showcasing the best quality discus on the national stage.' },
+        
         'sponsor-card2-watermark': { id: 'KISAH KLIEN', en: 'CLIENT STORY' },
         'sponsor-card2-tag': { id: 'Ekspor', en: 'Export' },
-        'sponsor-card2-title': { id: 'Kisah Sukses Ekspor Perdana Ikan Arwana ke Pasar Jepang', en: 'The Success Story of the First Arowana Fish Export to the Japanese Market' },
-        'sponsor-card2-desc': { id: 'Menembus pasar yang ketat, kualitas Arwana Richie Farm diakui oleh para kolektor internasional.', en: 'Penetrating a competitive market, the quality of Richie Farm Arowana is recognized by international collectors.' },
-        'sponsor-card3-watermark': { id: 'PROYEK', en: 'PROJECT' },
-        'sponsor-card3-tag': { id: 'Kolaborasi', en: 'Collaboration' },
-        'sponsor-card3-title': { id: 'Kolaborasi dengan Aquascaper Ternama untuk Proyek Galeri', en: 'Collaboration with a Famous Aquascaper for a Gallery Project' },
-        'sponsor-card3-desc': { id: 'Menyediakan puluhan ekor Ikan Discus pilihan untuk menjadi primadona dalam karya aquascape terbaru.', en: 'Providing dozens of selected Discus Fish to be the star in the latest aquascape masterpiece.' },
+        'sponsor-card2-title': { id: 'Peluang Emas Bisnis Ekspor Ikan Arwana', en: 'Golden Opportunity in Arowana Fish Export Business' },
+        'sponsor-card2-desc': { id: 'Menembus pasar internasional dengan sang "Raja Akuarium" yang memiliki permintaan tinggi secara global.', en: 'Penetrating the international market with the "King of the Aquarium" which has high global demand.' },
+        
+        'sponsor-card3-watermark': { id: 'PANDUAN', en: 'GUIDE' },
+        'sponsor-card3-tag': { id: 'Panduan', en: 'Guide' },
+        'sponsor-card3-title': { id: 'Panduan Lengkap Ikan Discus untuk Pemula', en: 'Complete Discus Fish Guide for Beginners' },
+        'sponsor-card3-desc': { id: 'Mulai dari persiapan akuarium, pemilihan pakan, hingga cara memilih ikan discus yang sehat.', en: 'From aquarium preparation and food selection to how to choose a healthy discus fish.' },
+
 
         // Halaman Detail
         'detail-title1': { id: 'Richie Farm Sukses Sponsori Kontes Discus Nasional 2025', en: 'Richie Farm Successfully Sponsors the 2025 National Discus Contest' },
@@ -230,7 +233,130 @@ document.addEventListener('DOMContentLoaded', function() {
         'detail-quote1': { id: '<p class="mb-0">"Ini bukan hanya tentang kompetisi, tetapi tentang membangun komunitas yang kuat dan solid."</p>', en: '<p class="mb-0">"This is not just about competition, but about building a strong and solid community."</p>' },
         'detail-p1-4': { id: 'Selain menyediakan hadiah utama untuk pemenang Grand Champion, Richie Farm juga membuka booth edukasi di mana pengunjung dapat berkonsultasi langsung mengenai teknik perawatan, pemilihan pakan, dan penanganan penyakit pada Ikan Discus. Booth kami menjadi salah satu yang paling ramai dikunjungi, menunjukkan tingginya minat masyarakat untuk belajar lebih dalam.', en: 'Besides providing the grand prize for the Grand Champion winner, Richie Farm also opened an educational booth where visitors could consult directly on care techniques, food selection, and disease management for Discus Fish. Our booth was one of the most visited, indicating the high interest of the community to learn more.' },
         'detail-p1-5': { id: 'Kami mengucapkan selamat kepada seluruh pemenang dan berterima kasih kepada semua pihak yang telah menyukseskan acara ini. Sampai jumpa di event selanjutnya!', en: 'We congratulate all the winners and thank all parties who made this event a success. See you at the next event!' },
-        'detail-back-btn': { id: 'Kembali ke Semua Cerita', en: 'Back to All Stories' }
+        'detail-back-btn': { id: 'Kembali ke Semua Cerita', en: 'Back to All Stories' },
+
+        // === TERJEMAHAN BARU UNTUK ARTIKEL DETAIL 2 ===
+        'detail2-title': { 
+            id: 'Ikan Arwana untuk Dijual di Pasar Internasional: Peluang Emas Bisnis Ekspor Ikan Hias', 
+            en: 'Arowana Fish for Sale on the International Market: A Golden Opportunity for the Ornamental Fish Export Business' 
+        },
+        'detail2-meta': { 
+            id: 'Dipublikasikan pada <span class="fw-bold">04 Juli 2025</span> dalam kategori <a href="#">Ekspor</a>', 
+            en: 'Published on <span class="fw-bold">July 04, 2025</span> in <a href="#">Export</a> category' 
+        },
+        'detail2-p1': { 
+            id: 'Arwana, sang "Raja Akuarium," tidak hanya menjadi favorit di pasar domestik tetapi juga memiliki permintaan yang sangat tinggi secara global. Dengan keindahannya dan mitos keberuntungan yang menyertainya, bisnis penjualan ikan arwana untuk ekspor telah menjadi salah satu sektor paling menjanjikan di industri akuakultur Indonesia. Artikel ini akan mengupas tuntas seluk-beluk ekspor arwana, memberikan panduan lengkap bagi pengusaha yang ingin menembus pasar global.', 
+            en: 'Arowana, the "King of the Aquarium," is not only a favorite in the domestic market but also commands extremely high demand globally. With its beauty and the myth of good fortune that surrounds it, the business of arowana fish for sale for export has become one of the most promising sectors in Indonesia\'s aquaculture industry. This article will comprehensively explore the ins and outs of arowana export, providing a complete guide for business owners who want to break into the global market.' 
+        },
+        'detail2-h2-1': { 
+            id: 'Mengapa Permintaan Global Ikan Arwana Sangat Tinggi?', 
+            en: 'Why Is There Such High Global Demand for Arowana Fish?' 
+        },
+        'detail2-ul1': { 
+            id: '<li><strong>Simbol Status dan Kemewahan:</strong> Di banyak negara Asia, memiliki arwana berkualitas tinggi, terutama varietas Super Red, seringkali menjadi penanda kesuksesan finansial.</li><li><strong>Mitos Pembawa Keberuntungan:</strong> Dalam budaya Feng Shui, arwana dipercaya membawa keberuntungan, kekayaan, dan melindungi pemiliknya dari energi negatif.</li><li><strong>Keindahan Unik:</strong> Bentuk tubuhnya yang elegan, sisik besar yang berkilauan, dan variasi warna yang memukau menjadikannya barang hobi yang sangat dihargai oleh kolektor di seluruh dunia.</li>', 
+            en: '<li><strong>Symbol of Status and Luxury:</strong> In many Asian countries, owning a high-quality arowana, particularly the Super Red variety, is often a display of financial success.</li><li><strong>Myth of Good Fortune:</strong> In Feng Shui culture, arowana are believed to bring luck, wealth, and protect their owners from negative energy.</li><li><strong>Unique Beauty:</strong> Their elegant body shape, large shimmering scales, and stunning color variations make them a highly prized hobbyist item for collectors worldwide.</li>' 
+        },
+        'detail2-h2-2': { 
+            id: 'Kualitas adalah Kunci: Menyiapkan Ikan untuk Ekspor', 
+            en: 'Quality is Key: Preparing Fish for Export' 
+        },
+        'detail2-p2': { 
+            id: 'Keberhasilan menjual ikan arwana di pasar ekspor sangat bergantung pada kualitas ikan yang Anda kirim. Pembeli internasional, terutama kolektor, sangat teliti dalam menilai ikan.', 
+            en: 'Success in selling arowana fish for sale on the export market is highly dependent on the quality of the fish you ship. International buyers, especially collectors, are very meticulous in evaluating fish.' 
+        },
+        'detail2-h4-1': { 
+            id: '1. Sortir dan Grading', 
+            en: '1. Sorting and Grading' 
+        },
+        'detail2-p3': { 
+            id: 'Ikan harus disortir berdasarkan kualitasnya. Parameter penilaiannya antara lain: Warna, Bentuk Tubuh, Sisik, Mata, dan Perilaku. Memberikan "grade" pada ikan Anda akan membantu menetapkan harga yang kompetitif dan membangun kepercayaan pembeli.', 
+            en: 'Fish must be sorted based on their quality. The assessment parameters include: Color, Body Shape, Scales, Eyes, and Behavior. Giving a "grade" to your fish will help you set a competitive price and build buyer trust.' 
+        },
+        'detail2-h4-2': { 
+            id: '2. Karantina dan Puasa', 
+            en: '2. Quarantine and Fasting' 
+        },
+        'detail2-p4': { 
+            id: 'Sebelum dikirim, ikan harus melalui proses karantina untuk memastikan benar-benar sehat. Dua hingga tiga hari sebelum pengiriman, ikan harus dipuasakan. Hal ini bertujuan untuk mengosongkan perut ikan agar tidak mengotori air dalam kemasan selama perjalanan, yang bisa berakibat fatal.', 
+            en: 'Before being shipped, the fish must go through a quarantine process to ensure they are truly healthy. Two to three days before shipment, the fish must be fasted. This is to empty the fish\'s stomach so it doesn\'t contaminate the water in the packaging during transit, which can be fatal.' 
+        },
+        'detail2-h4-3': { 
+            id: '3. Pengemasan yang Tepat', 
+            en: '3. Proper Packing' 
+        },
+        'detail2-p5': { 
+            id: 'Pengemasan adalah langkah krusial. Arwana dikemas dalam kantong plastik tebal berisi air dan oksigen murni, lalu dimasukkan ke dalam kotak styrofoam yang dilapisi kardus untuk meminimalisir guncangan dan menjaga suhu air tetap stabil.', 
+            en: 'Packaging is a crucial step. Arowana are packed in thick plastic bags filled with water and pure oxygen, then placed inside a styrofoam box lined with cardboard to minimize shocks and maintain a stable water temperature.' 
+        },
+        'detail2-h2-3': { 
+            id: 'Potensi Pasar dan Masa Depan', 
+            en: 'Market Potential and the Future' 
+        },
+        'detail2-quote1': { 
+            id: '<p class="mb-0">Dengan manajemen budidaya yang berkelanjutan, kepatuhan terhadap regulasi, dan strategi pemasaran yang cerdas, bisnis penjualan ikan arwana untuk ekspor akan terus menjadi sumber devisa yang penting dan membanggakan.</p>', 
+            en: '<p class="mb-0">With sustainable farming management, compliance with regulations, and a smart marketing strategy, the business of arowana fish for sale for export will continue to be a significant and proud source of foreign exchange.</p>' 
+        },
+        // === TERJEMAHAN BARU UNTUK ARTIKEL DETAIL 3 (DISCUS GUIDE) ===
+        'detail3-title': { 
+            id: 'Jual Ikan Discus: Membawa Kemegahan Tropis ke Akuarium Anda', 
+            en: 'Discus Fish for Sale: Bringing Tropical Splendor to Your Aquarium' 
+        },
+        'detail3-meta': { 
+            id: 'Dipublikasikan pada <span class="fw-bold">11 Juni 2025</span> dalam kategori <a href="#">Panduan</a>', 
+            en: 'Published on <span class="fw-bold">June 11, 2025</span> in <a href="#">Guide</a> category' 
+        },
+        'detail3-p1': { 
+            id: 'Dunia jual beli ikan discus bukan hanya tentang perdagangan; ini tentang menyelami keindahan alam yang terwujud dalam makhluk hidup. Ikan discus, yang sering dijuluki "Raja Akuarium," telah lama memikat hati para penggemar ikan di seluruh dunia. Bentuknya yang pipih seperti cakram dan warnanya yang memukau menjadikannya pusat perhatian yang unik dan tak tertandingi.', 
+            en: 'The world of discus fish for sale is not just about commerce; it\'s about delving into the beauty of nature embodied in a living creature. Discus fish, often hailed as the "King of the Aquarium," have long captivated the hearts of fish enthusiasts worldwide. Their flattened, disc-like shape and a dazzling array of colors make them a unique and unrivaled centerpiece.' 
+        },
+        'detail3-h2-1': { 
+            id: 'Mengenal Sang Raja Akuarium', 
+            en: 'Getting to Know the King of the Aquarium' 
+        },
+        'detail3-p2': { 
+            id: 'Ikan discus (Symphysodon spp.) berasal dari lembah Sungai Amazon di Amerika Selatan. Seiring waktu, melalui pembiakan selektif, banyak strain dan varietas baru telah muncul dengan rentang warna dan pola yang jauh lebih luas, seperti Pigeon Blood, Blue Diamond, dan Leopard. Keragaman ini membuat pasar jual ikan discus semakin semarak dan menarik.', 
+            en: 'Discus fish (Symphysodon spp.) originate from the Amazon River basin in South America. Over time, through selective breeding, numerous new strains and varieties have emerged with a much wider range of colors and patterns, such as: Pigeon Blood, Blue Diamond, and Leopard. This diversity makes the market for discus fish for sale increasingly vibrant and appealing.' 
+        },
+        'detail3-h2-2': { 
+            id: 'Persiapan dan Perawatan untuk Pemula: Kunci Sukses', 
+            en: 'Preparation and Care for Beginners: The Key to Success' 
+        },
+        'detail3-p3': { 
+            id: 'Bagi mereka yang baru mengenal ikan discus, persiapan yang matang adalah segalanya. Berikut beberapa poin penting yang perlu dipertimbangkan:', 
+            en: 'For those who are new to keeping discus fish, thorough preparation is everything. Here are some crucial points to consider:' 
+        },
+        'detail3-h4-1': { 
+            id: '1. Akuarium dan Lingkungan', 
+            en: '1. Aquarium and Environment' 
+        },
+        'detail3-p4': { 
+            id: 'Ukuran tangki adalah faktor penting. Untuk pemula, akuarium dengan kapasitas minimal 100 liter untuk kelompok kecil (sekitar 3-4 ekor) sangat disarankan. Suhu air harus dijaga di kisaran 28-31°C dan kualitas air harus prima dengan pH ideal antara 6.0-6.5 (asam).', 
+            en: 'Tank size is a critical factor. For beginners, an aquarium with a minimum capacity of 100 liters for a small group (about 3-4 fish) is highly recommended. The water temperature must be maintained in the range of 28-31°C (82-88°F) and water quality is paramount with an ideal pH for discus is between 6.0-6.5 (acidic).' 
+        },
+        'detail3-h4-2': { 
+            id: '2. Pola Makan yang Tepat', 
+            en: '2. Proper Diet' 
+        },
+        'detail3-p5': { 
+            id: 'Memberikan pola makan yang seimbang sangat penting untuk pertumbuhan dan kesehatan ikan discus. Penting untuk menawarkan berbagai jenis makanan dan tidak hanya mengandalkan satu jenis. Beri makan 2-3 kali sehari dalam porsi kecil lebih baik daripada satu kali makan besar.', 
+            en: 'Providing a balanced diet is essential for the growth and health of discus fish. It\'s important to offer a variety of foods and not rely on just one type. Feeding them 2-3 times a day in small portions is better than a single large meal.' 
+        },
+        'detail3-h4-3': { 
+            id: '3. Memilih Ikan yang Sehat', 
+            en: '3. Choosing Healthy Fish' 
+        },
+        'detail3-p6': { 
+            id: 'Saat membeli dari penjual ikan discus, pastikan untuk memilih ikan yang sehat. Ciri-cirinya antara lain: Bentuk tubuh bulat sempurna, mata jernih, sirip tegak, dan perilaku aktif serta responsif saat diberi makan.', 
+            en: 'When purchasing from a seller who offers discus fish for sale, make sure to choose a healthy fish. The characteristics of a healthy discus fish include: Perfectly round shape, clear eyes, erect fins, and is actively swimming and responsive when fed.' 
+        },
+        'detail3-quote1': { 
+            id: '<p class="mb-0">Ikan discus bukan sekadar ikan hias biasa. Mereka adalah karya seni hidup yang membutuhkan perhatian dan kasih sayang.</p>', 
+            en: '<p class="mb-0">Discus fish are not just ordinary ornamental fish. They are living works of art that require attention and affection.</p>' 
+        },
+        'detail3-p7': { 
+            id: 'Baik sebagai hobiis atau pebisnis jual ikan discus, memahami karakteristik dan kebutuhan mereka adalah kunci untuk menikmati keindahan yang mereka tawarkan. Dengan pengetahuan, kesabaran, dan dedikasi yang tepat, Anda bisa menjadi bagian dari dunia penuh warna ini.', 
+            en: 'Whether as a hobbyist or a business owner in discus fish for sale, understanding their characteristics and needs is the key to enjoying the beauty they offer. With the right knowledge, patience, and dedication, you can become a part of this colorful world.' 
+        }
     };
 
     // 2. Cek bahasa yang tersimpan di browser, default ke 'id' (Indonesia)
