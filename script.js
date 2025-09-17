@@ -65,29 +65,37 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 'IKAN DISCUS SPESIAL KAMI',
             en: 'OUR SPECIALIZE DISCUS FISH'
         },
-        'fish-sanmerah-title': {
-            id: 'SAN MERAH',
-            en: 'SAN MERAH'
+
+        // Koleksi Ikan Baru di Halaman Index
+        'fish-redeagle-title': { id: 'RED EAGLE', en: 'RED EAGLE' },
+        'fish-redeagle-desc': {
+            id: 'Signature 2024 kami dari Red eagle, Dengan warna merah pekat dan pola yang tidak ditemukan di tempat lain, ikan ini siap menjadi koleksi teristimewa Anda.',
+            en: 'Our 2024 Signature from Red Eagle. With a deep red color and a pattern not found elsewhere, this fish is ready to be your most special collection.'
         },
-        'fish-sanmerah-desc': {
-            id: 'Signature 2024 kami dari galur snow, bercak di kepala dengan pola seluruh badan sangat langka. Strain ini bisa menjadi milik Anda...',
-            en: 'Our 2024 Signature from snow line, head spotted with full body pattern is very rare. This Strain can be yours...'
+        'fish-pigeontiger-title': { id: 'PIGEON TIGER', en: 'PIGEON TIGER' },
+        'fish-pigeontiger-desc': {
+            id: 'Pigeon Tiger Discus. Kombinasi warna cerah dengan garis-garis tegasnya menciptakan tampilan yang eksotis dan langka. Dapatkan koleksi premium ini untuk akuarium Anda, dan saksikan keindahan yang benar-benar memukau.',
+            en: 'Pigeon Tiger Discus. The combination of bright colors with its bold stripes creates an exotic and rare appearance. Get this premium collection for your aquarium, and witness a truly stunning beauty.'
         },
-        'fish-grd-title': {
-            id: 'GOLDEN RED DIAMOND',
-            en: 'GOLDEN RED DIAMOND'
+        'fish-bluescorpion-title': { id: 'BLUE SCORPION', en: 'BLUE SCORPION' },
+        'fish-bluescorpion-desc': {
+            id: 'Keindahan Biru dengan pola unik dan warna biru yang intens, ikan ini memancarkan aura misterius sekaligus menawan.',
+            en: 'Blue beauty with a unique pattern and intense blue color, this fish radiates a mysterious yet charming aura.'
         },
-        'fish-grd-desc': {
-            id: 'Terkenal dengan corak dan warnanya yang mengesankan. Tentu saja galur ini memiliki kelasnya sendiri di hati para hobiis. Tumbuh dengan baik di Akuarium tanam.',
-            en: 'Famous for its impressive pattern and color. For sure this line up its own class in hobbyist heart. Thrive well in Planted Aquarium.'
+        'fish-checkerboard-title': { id: 'PIGEON CHECKERBOARD', en: 'PIGEON CHECKERBOARD' },
+        'fish-checkerboard-desc': {
+            id: 'Siap untuk ikan yang unik? Discus ini menawarkan pola papan catur yang menonjol dari yang lain. Wajib dimiliki oleh setiap kolektor serius yang mencari sesuatu yang benar-benar istimewa.',
+            en: 'Ready for a one-of-a-kind fish? This Discus offers a bold, checkered pattern that stands out from the rest. It’s a must-have for any serious collector looking for something truly special.'
         },
-        'fish-redcover-title': {
-            id: 'RED COVER',
-            en: 'RED COVER'
+        'fish-torquis-title': { id: 'BLUE TORQUIS', en: 'BLUE TORQUIS' },
+        'fish-torquis-desc': {
+            id: 'Discus Blue Turquoise: Permata abadi di setiap akuarium. Dengan warna biru-hijau yang memukau dan garis bergelombang khasnya, Discus ini menambahkan sentuhan keanggunan murni pada koleksi Anda.',
+            en: 'Blue Turquoise Discus: The timeless jewel of any aquarium. With its mesmerizing, vibrant blue-green color and signature wavy lines, this Discus adds a touch of pure elegance to your collection.'
         },
-        'fish-redcover-desc': {
-            id: 'Tidak ada waktu yang lebih baik dari sekarang untuk mengunjungi Richie Farm dan memilih discus Anda untuk mencerahkan akuarium Anda di rumah.',
-            en: 'There will be no better time than right now to visit Richie Farm and pick your discus to brighten up your aquarium at home.'
+        'fish-snakeskin-title': { id: 'SNAKESKIN', en: 'SNAKESKIN' },
+        'fish-snakeskin-desc': {
+            id: 'Memperkenalkan Discus Snakeskin premium kami. Strain yang banyak dicari ini menampilkan pola seperti jaring yang spektakuler, sebuah tanda genetika uniknya.',
+            en: 'Introducing our premium Snakeskin Discus. This sought-after strain showcases a spectacular web-like pattern, a mark of its unique genetics.'
         },
 
         // Teks Footer
@@ -222,7 +230,10 @@ document.addEventListener('DOMContentLoaded', function() {
         'sponsor-card3-title': { id: 'Panduan Lengkap Ikan Discus untuk Pemula', en: 'Complete Discus Fish Guide for Beginners' },
         'sponsor-card3-desc': { id: 'Mulai dari persiapan akuarium, pemilihan pakan, hingga cara memilih ikan discus yang sehat.', en: 'From aquarium preparation and food selection to how to choose a healthy discus fish.' },
 
-
+        // Halaman collection
+        'call-header1': { id: 'Koleksi Ikan Discus', en: 'Collection Discus Fish' },
+        'call-header2': { id: 'Koleksi Ikan Arwana', en: 'Collection Arowana Fish' },
+        'call-us': { id: 'Hubungi Kami', en: 'CALL US' },
         // Halaman Detail
         'detail-title1': { id: 'Richie Farm Sukses Sponsori Kontes Discus Nasional 2025', en: 'Richie Farm Successfully Sponsors the 2025 National Discus Contest' },
         'detail-meta1': { id: 'Dipublikasikan pada <span class="fw-bold">15 Agustus 2025</span> dalam kategori <a href="#">Event</a>', en: 'Published on <span class="fw-bold">August 15, 2025</span> in <a href="#">Events</a> category' },
