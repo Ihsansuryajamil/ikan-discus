@@ -234,6 +234,8 @@ document.addEventListener('DOMContentLoaded', function() {
         'call-header1': { id: 'Koleksi Ikan Discus', en: 'Collection Discus Fish' },
         'call-header2': { id: 'Koleksi Ikan Arwana', en: 'Collection Arowana Fish' },
         'call-us': { id: 'Hubungi Kami', en: 'CALL US' },
+        'call-back': { id: 'Kembali ke Semua Produk', en: 'Back To All Product' },
+
         // Halaman Detail
         'detail-title1': { id: 'Richie Farm Sukses Sponsori Kontes Discus Nasional 2025', en: 'Richie Farm Successfully Sponsors the 2025 National Discus Contest' },
         'detail-meta1': { id: 'Dipublikasikan pada <span class="fw-bold">15 Agustus 2025</span> dalam kategori <a href="#">Event</a>', en: 'Published on <span class="fw-bold">August 15, 2025</span> in <a href="#">Events</a> category' },
