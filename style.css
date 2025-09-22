@@ -295,6 +295,12 @@ h1, h2, h3, h4, h5, h6 {
 .copyright-text hr {
     border-color: #333;
 }
+/* === GAYA UNTUK MENYERAGAMKAN UKURAN GAMBAR PRODUK === */
+.product-card .card-discus-img-top {
+    width: 100%;        /* Lebar gambar akan selalu mengisi kartu */
+    height: 250px;      /* TENTUKAN TINGGI YANG SAMA UNTUK SEMUA GAMBAR DI SINI */
+    object-fit: cover;  /* Ini "sihir"-nya: mencegah gambar gepeng */
+}
 /* === GAYA UNTUK HALAMAN ABOUT US === */
 .about-us-content {
     padding-top: 4rem;
